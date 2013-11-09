@@ -1,0 +1,120 @@
+body{
+	width: 100%;
+	background: url("../images/esterassss.jpg") fixed no-repeat;
+	background-size: 100%;
+}
+.principal, footer{
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+header{
+	/*background: -webkit-linear-gradient(#3F2FCE, #749AE7);*/
+	background: url("../images/fondo.jpg") fixed no-repeat;
+	background-size: 100%;
+	border-radius: 0em 0em 5em 5em;
+	width: 100%;
+	
+}
+
+.logo{
+	width: 8em;
+	height: 12em;
+	padding-left: 3em;
+}
+
+h1{
+	font-size: 5em;
+	font-family: Forte;
+	color: #823108;
+}
+
+h3{
+	font-size: 1.5em;
+	font-family: ComicSan;
+	color: #823108;
+}
+.logo, h1, h2, .formulario{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.formulario{
+	float: right;
+}
+
+nav{
+	font-size: 1.5em;
+	text-align: center;
+}
+
+li{
+	padding-right: 1.5em;
+}
+ul li{
+	display: inline-block;
+}
+
+a{
+	background: #E0BA7F;
+	color: #845E2F;
+	border-radius: .5em 0em .5em 0em;
+	padding: .3em 1em .3em 1em;
+	text-decoration: none;
+	font-family: Forte;
+}
+
+a:hover{
+	background: transparent;
+	color: #000;
+	border: 2px solid #000;
+	border-radius: 0em .5em 0em .5em;
+}
+
+.contenido .platosPrincipales img{
+	border: 3px solid #000;
+	width: 34em;
+	height: 21em;
+}
+
+.categoriasEspecialidad section img{
+	height: 10em;
+	width: 14em;
+	border: 2px solid #000;
+	border-radius: .5em;
+}
+
+.contenido .platosPrincipales, .contenido .categoriasEspecialidad{
+	vertical-align: top;
+	display: inline-block;
+	padding-right: 1em;
+}
+
+footer{
+	height: 4em;
+	
+}
+
+#span1, #span2, #span3, #span4{
+	position: absolute;
+	top:20em;
+	left: 40em;
+	background: #EAC57B;
+	color: #845E2F;
+	font-family: Forte;
+	font-size: 18px;
+}
+
+#span2{
+	left: 55em;
+}
+
+#span3, #span4{
+	top:29.5em;
+	left: 40em;
+}
+
+#span4{
+	left: 55em;
+}
+
